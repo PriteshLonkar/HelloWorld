@@ -19,6 +19,6 @@ public class UtilityClass
 		 Sheet sh = WorkbookFactory.create(file).getSheet("DDF2");
 		  
 		 String value = sh.getRow(rowIndex).getCell(CellIndex).getStringCellValue();
-		 return value;
+		  value;
 	}
 }
